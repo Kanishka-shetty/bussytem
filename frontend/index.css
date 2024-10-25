@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    text-align: center;
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+.login-options, .register-section {
+    margin-top: 20px;
+}
+
+.btn {
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.admin-btn {
+    background-color: #007bff;
+    color: white;
+}
+
+.user-btn {
+    background-color: #28a745;
+    color: white;
+}
+
+.register-btn {
+    background-color: #ffc107;
+    color: white;
+}
+
+.btn:hover {
+    opacity: 0.8;
+}
+
+.register-section p {
+    margin-bottom: 10px;
+}
+
+/* login_user.html */
+
+/* For login_user.html */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.forgot-password {
+    margin-top: 10px;
+}
+
+.forgot-password a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+.forgot-password a:hover {
+    text-decoration: underline;
+}
+
+/* register */
+/* For register.html */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+}
+/* Update for form labels and inputs */
+
